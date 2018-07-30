@@ -1,0 +1,106 @@
+html {
+    background-image: url("../images/tri-bg.png");
+    background-color: #cccccc;
+
+}
+
+body {
+    /* background-image: url("../images/tri-bg.png"); */
+    /* background-color: #cccccc; */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* width: 960px; */
+    /* margin: 0 auto; */
+}
+
+p {
+    line-height: 1.5em;
+    margin: 20px;
+}
+
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #cccccc;
+    height: 100px;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#name-logo {
+    background-color: #4aaaa5;
+    color: #fff;
+    /* float: left; */
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    left: 272px;
+}
+
+#nav-wrap {
+    color: #777777;    
+    background-color: white;
+    margin-bottom: 20px;
+    /* width: 100%; */
+    /* float: right; */
+    text-align: right;
+}
+
+
+
+#navbar-links {
+    text-decoration: none;
+    /* text-align: center; */
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: absolute;
+    right: 264px;
+    
+    
+}
+
+#navbar-links:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+#navbar-links:hover {
+    background-color: #4aaaa5;
+    /* color: white; */
+}
+
+#main-content {
+    background-color: white;
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+#content-header {
+    color: #4aaaa5;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;   
+    font-size: 28px;
+}
+
+hr {
+    background-color: #cccccc;
+    width: 920px;
+    
+}
+
+#nate-photo {
+    float: left;
+    margin: 20px;
+}
+
+footer {
+    clear: both;
+}
