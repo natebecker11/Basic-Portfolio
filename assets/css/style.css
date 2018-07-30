@@ -17,11 +17,17 @@ p {
     margin: 20px;
 }
 
+h4 {
+    font-weight: normal;
+    margin: 10px;
+    margin-left: 20px;
+}
+
 nav {
     background-color: #fff;
     border-bottom: 1px solid #cccccc;
     height: 100px;
-    margin: 0;
+    margin-bottom: 20px;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -30,13 +36,13 @@ nav {
 #name-logo {
     background-color: #4aaaa5;
     color: #fff;
-    /* float: left; */
-    display: inline-block;
+    float: left;
+    /* display: inline-block; */
     padding: 20px;
     padding-top: 0;
     margin-bottom: 0;
-    position: absolute;
-    left: 272px;
+    /* position: absolute; */
+    /* left: 272px; */
 }
 
 #nav-wrap {
@@ -48,28 +54,41 @@ nav {
     text-align: right;
 }
 
+#nav-link-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
 
-
-#navbar-links {
+.navbar-links {
     text-decoration: none;
     /* text-align: center; */
     padding: 20px;
     margin-right: 0;
     margin-bottom: 0;
-    position: absolute;
-    right: 264px;
+    margin-top: 20px;
+    /* position: absolute; */
+    /* right: 264px; */
+    float: right;
+    border: 1px solid white;
     
     
 }
 
-#navbar-links:visited {
+.navbar-links:visited {
     color: #777777;
     text-decoration: none;
 }
 
-#navbar-links:hover {
+.navbar-links:hover {
     background-color: #4aaaa5;
-    /* color: white; */
+    color: white;
+    border: 1px solid #777777;
+}
+
+.navbar-divider {
+    float: right;    
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #main-content {
@@ -77,12 +96,16 @@ nav {
     clear: both;
     width: 960px;
     margin: 0 auto;
+    border: 1px solid #dddddd;
     
 }
 
 #content-header {
     color: #4aaaa5;
     margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-top: 0;
 }
 
 h1 {
@@ -93,6 +116,7 @@ h1 {
 hr {
     background-color: #cccccc;
     width: 920px;
+    margin-bottom: 20px;
     
 }
 
@@ -103,4 +127,36 @@ hr {
 
 footer {
     clear: both;
+}
+
+.sm-txt-box {
+    margin: 0px 0px 20px 20px;
+
+}
+
+#messagebox {
+    margin: 0px 0px 20px 20px;
+    height: 200px;
+    width: 920px;
+
+}
+
+#contact-sub {
+    margin: 0px 20px 20px 20px;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 8px 16px;
+}
+
+#contact-sub:hover {
+    border: 1px solid black;
+    padding: 7px 15px;
+}
+
+.folio-img {
+    margin: 20px;
 }
