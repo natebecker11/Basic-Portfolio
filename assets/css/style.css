@@ -165,27 +165,35 @@ footer {
     /* bottom: 0; */
     width: 100%;
     border-top: 8px solid #4aaaa5;
-    /* padding-top: 30px; */
+    padding-bottom: 2px;
+    padding-top: 38px;
     font-size: 10px;
     text-align: center;
     color: white;
-    height: 50px;
+    /* height: 50px; */
+
 }
 
 #push {
     height: 50px;
+    clear: both;
 }
 
 #foot-wrap {
     min-height: 100%;
     margin-bottom: -50px;
+    clear: both;
 }
 
 
 .folio-cont {
     position: relative;
-    width: 300px;
+    width: 350px;
     height: 225px;
+    margin: 20px;
+    float: left;
+    /* display: inline; */
+    
 }
 
 .folio-lbl {
@@ -199,4 +207,9 @@ footer {
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;   
     font-size: 20px;
+}
+
+#clearer {
+    padding: 10px;
+    clear: both;
 }
