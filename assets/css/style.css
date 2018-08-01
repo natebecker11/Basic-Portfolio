@@ -157,6 +157,7 @@ footer {
 
 .folio-img {
     margin: 20px;
+    border: 1px solid #cccccc;
 }
 
 footer {
@@ -198,7 +199,7 @@ footer {
 
 .folio-lbl {
     position: absolute;
-    width: 325px;
+    width: 327px;
     color: white;
     background-color: #4aaaa5;
     z-index: 1;
